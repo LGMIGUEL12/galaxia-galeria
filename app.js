@@ -9,6 +9,7 @@
     "Le aprecio", "Me encanta", "DIVINA",
     "Mas hermosa que usted dificil", "Maravillosa", "Preciosa", "✨", "💖", "🌟", "🫶"
   ];
+  const TITLE = "LA QUIERO";
 
   const isMobile = matchMedia("(pointer: coarse)").matches || innerWidth < 700;
   const GALAXY_COUNT = isMobile ? 22000 : 38000;
