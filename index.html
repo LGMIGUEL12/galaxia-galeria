@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#05010d">
+  <title>La Quiero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="scene"></canvas>
+
+  <div id="hint">Arrastra para girar · Toca una foto para verla</div>
+
+  <div id="lightbox" aria-hidden="true">
+    <button class="lb-btn lb-close" aria-label="Cerrar">&times;</button>
+    <button class="lb-btn lb-prev" aria-label="Anterior">&#8249;</button>
+    <figure class="lb-figure">
+      <img id="lb-img" alt="Foto">
+    </figure>
+    <button class="lb-btn lb-next" aria-label="Siguiente">&#8250;</button>
+    <div class="lb-count" id="lb-count"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
